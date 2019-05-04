@@ -14,8 +14,7 @@ use Carbon\Carbon;
 use Cache;
 use DB;
 
-
-trait ActiveUserHelper
+trait  ActiveUserHelper
 {
 // 用于存放临时用户数据
     protected $users = [];
